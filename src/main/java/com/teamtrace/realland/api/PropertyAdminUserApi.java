@@ -1,0 +1,40 @@
+package com.teamtrace.realland.api;
+
+public class PropertyAdminUserApi {
+    private int adminUserId;
+    private String name;
+    private String mobile;
+    private String email;
+
+    public int getAdminUserId() {
+        return adminUserId;
+    }
+
+    public void setAdminUserId(int adminUserId) {
+        this.adminUserId = adminUserId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+}
